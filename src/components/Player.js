@@ -9,7 +9,7 @@ const Player = (props) => {
         { props.name }
       </span>
 
-      <Counter />
+      <Counter changeScore={props.changeScore} index={props.index} score={props.score} />
     </div>
   );
 }
